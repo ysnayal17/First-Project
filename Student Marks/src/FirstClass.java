@@ -3,14 +3,13 @@ public class FirstClass
 {
 	public static void main(String args[])
 	{
-        int num=2;
-		switch (num)
+		for(int i=1;i<=6;i++)
 		{
-		    case 1:System.out.println("One");
-		           break;
-		    case 2:System.out.println("Two");
-		           break;
-		    default:System.out.println("Invalid");
+			for(int j=1 ; j<=i ; j++)
+			{
+				System.out.print(j + " ");
+			}
+			System.out.print("\n");
 		}
 
 	}
